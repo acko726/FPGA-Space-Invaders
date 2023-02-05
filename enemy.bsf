@@ -1,0 +1,316 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 280 432)
+	(text "enemy" (rect 5 0 42 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 400 25 412)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "clk" (rect 21 27 36 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "X[9..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "X[9..0]" (rect 21 43 57 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "Y[9..0]" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "Y[9..0]" (rect 21 59 58 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "left[9..0]" (rect 0 0 46 14)(font "Arial" (font_size 8)))
+		(text "left[9..0]" (rect 21 75 67 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "right[9..0]" (rect 0 0 53 14)(font "Arial" (font_size 8)))
+		(text "right[9..0]" (rect 21 91 74 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "up[9..0]" (rect 0 0 42 14)(font "Arial" (font_size 8)))
+		(text "up[9..0]" (rect 21 107 63 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "down[9..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "down[9..0]" (rect 21 123 82 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "ld" (rect 0 0 9 14)(font "Arial" (font_size 8)))
+		(text "ld" (rect 21 139 30 153)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "top_left[9..0]" (rect 0 0 70 14)(font "Arial" (font_size 8)))
+		(text "top_left[9..0]" (rect 21 155 91 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "top_right[9..0]" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "top_right[9..0]" (rect 21 171 98 185)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "top_up[9..0]" (rect 0 0 67 14)(font "Arial" (font_size 8)))
+		(text "top_up[9..0]" (rect 21 187 88 201)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "top_down[9..0]" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "top_down[9..0]" (rect 21 203 107 217)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "mozelevo" (rect 0 0 54 14)(font "Arial" (font_size 8)))
+		(text "mozelevo" (rect 21 219 75 233)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "mozedesno" (rect 0 0 66 14)(font "Arial" (font_size 8)))
+		(text "mozedesno" (rect 21 235 87 249)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 16 240))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "idides" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "idides" (rect 21 251 54 265)(font "Arial" (font_size 8)))
+		(line (pt 0 256)(pt 16 256))
+	)
+	(port
+		(pt 0 272)
+		(input)
+		(text "mojmetakup[9..0]" (rect 0 0 94 14)(font "Arial" (font_size 8)))
+		(text "mojmetakup[9..0]" (rect 21 267 115 281)(font "Arial" (font_size 8)))
+		(line (pt 0 272)(pt 16 272)(line_width 3))
+	)
+	(port
+		(pt 0 288)
+		(input)
+		(text "mojmetakleft[9..0]" (rect 0 0 97 14)(font "Arial" (font_size 8)))
+		(text "mojmetakleft[9..0]" (rect 21 283 118 297)(font "Arial" (font_size 8)))
+		(line (pt 0 288)(pt 16 288)(line_width 3))
+	)
+	(port
+		(pt 0 304)
+		(input)
+		(text "mojmetakright[9..0]" (rect 0 0 105 14)(font "Arial" (font_size 8)))
+		(text "mojmetakright[9..0]" (rect 21 299 126 313)(font "Arial" (font_size 8)))
+		(line (pt 0 304)(pt 16 304)(line_width 3))
+	)
+	(port
+		(pt 0 320)
+		(input)
+		(text "pucaj" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "pucaj" (rect 21 315 51 329)(font "Arial" (font_size 8)))
+		(line (pt 0 320)(pt 16 320))
+	)
+	(port
+		(pt 0 336)
+		(input)
+		(text "playerup[9..0]" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "playerup[9..0]" (rect 21 331 98 345)(font "Arial" (font_size 8)))
+		(line (pt 0 336)(pt 16 336)(line_width 3))
+	)
+	(port
+		(pt 0 352)
+		(input)
+		(text "playerleft[9..0]" (rect 0 0 81 14)(font "Arial" (font_size 8)))
+		(text "playerleft[9..0]" (rect 21 347 102 361)(font "Arial" (font_size 8)))
+		(line (pt 0 352)(pt 16 352)(line_width 3))
+	)
+	(port
+		(pt 0 368)
+		(input)
+		(text "playerright[9..0]" (rect 0 0 88 14)(font "Arial" (font_size 8)))
+		(text "playerright[9..0]" (rect 21 363 109 377)(font "Arial" (font_size 8)))
+		(line (pt 0 368)(pt 16 368)(line_width 3))
+	)
+	(port
+		(pt 264 32)
+		(output)
+		(text "enemy" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "enemy" (rect 206 27 243 41)(font "Arial" (font_size 8)))
+		(line (pt 264 32)(pt 248 32))
+	)
+	(port
+		(pt 264 48)
+		(output)
+		(text "idilevo" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "idilevo" (rect 208 43 243 57)(font "Arial" (font_size 8)))
+		(line (pt 264 48)(pt 248 48))
+	)
+	(port
+		(pt 264 64)
+		(output)
+		(text "ididesno" (rect 0 0 47 14)(font "Arial" (font_size 8)))
+		(text "ididesno" (rect 196 59 243 73)(font "Arial" (font_size 8)))
+		(line (pt 264 64)(pt 248 64))
+	)
+	(port
+		(pt 264 80)
+		(output)
+		(text "a" (rect 0 0 7 14)(font "Arial" (font_size 8)))
+		(text "a" (rect 236 75 243 89)(font "Arial" (font_size 8)))
+		(line (pt 264 80)(pt 248 80))
+	)
+	(port
+		(pt 264 96)
+		(output)
+		(text "b" (rect 0 0 7 14)(font "Arial" (font_size 8)))
+		(text "b" (rect 236 91 243 105)(font "Arial" (font_size 8)))
+		(line (pt 264 96)(pt 248 96))
+	)
+	(port
+		(pt 264 112)
+		(output)
+		(text "enemy_left[9..0]" (rect 0 0 90 14)(font "Arial" (font_size 8)))
+		(text "enemy_left[9..0]" (rect 153 107 243 121)(font "Arial" (font_size 8)))
+		(line (pt 264 112)(pt 248 112)(line_width 3))
+	)
+	(port
+		(pt 264 128)
+		(output)
+		(text "enemy_right[9..0]" (rect 0 0 97 14)(font "Arial" (font_size 8)))
+		(text "enemy_right[9..0]" (rect 146 123 243 137)(font "Arial" (font_size 8)))
+		(line (pt 264 128)(pt 248 128)(line_width 3))
+	)
+	(port
+		(pt 264 144)
+		(output)
+		(text "enemy_up[9..0]" (rect 0 0 87 14)(font "Arial" (font_size 8)))
+		(text "enemy_up[9..0]" (rect 156 139 243 153)(font "Arial" (font_size 8)))
+		(line (pt 264 144)(pt 248 144)(line_width 3))
+	)
+	(port
+		(pt 264 160)
+		(output)
+		(text "enemy_down[9..0]" (rect 0 0 106 14)(font "Arial" (font_size 8)))
+		(text "enemy_down[9..0]" (rect 137 155 243 169)(font "Arial" (font_size 8)))
+		(line (pt 264 160)(pt 248 160)(line_width 3))
+	)
+	(port
+		(pt 264 176)
+		(output)
+		(text "top" (rect 0 0 17 14)(font "Arial" (font_size 8)))
+		(text "top" (rect 226 171 243 185)(font "Arial" (font_size 8)))
+		(line (pt 264 176)(pt 248 176))
+	)
+	(port
+		(pt 264 192)
+		(output)
+		(text "metak" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "metak" (rect 210 187 243 201)(font "Arial" (font_size 8)))
+		(line (pt 264 192)(pt 248 192))
+	)
+	(port
+		(pt 264 208)
+		(output)
+		(text "metak_left[9..0]" (rect 0 0 86 14)(font "Arial" (font_size 8)))
+		(text "metak_left[9..0]" (rect 157 203 243 217)(font "Arial" (font_size 8)))
+		(line (pt 264 208)(pt 248 208)(line_width 3))
+	)
+	(port
+		(pt 264 224)
+		(output)
+		(text "metak_right[9..0]" (rect 0 0 93 14)(font "Arial" (font_size 8)))
+		(text "metak_right[9..0]" (rect 150 219 243 233)(font "Arial" (font_size 8)))
+		(line (pt 264 224)(pt 248 224)(line_width 3))
+	)
+	(port
+		(pt 264 240)
+		(output)
+		(text "metak_up[9..0]" (rect 0 0 82 14)(font "Arial" (font_size 8)))
+		(text "metak_up[9..0]" (rect 161 235 243 249)(font "Arial" (font_size 8)))
+		(line (pt 264 240)(pt 248 240)(line_width 3))
+	)
+	(port
+		(pt 264 256)
+		(output)
+		(text "metak_down[9..0]" (rect 0 0 101 14)(font "Arial" (font_size 8)))
+		(text "metak_down[9..0]" (rect 142 251 243 265)(font "Arial" (font_size 8)))
+		(line (pt 264 256)(pt 248 256)(line_width 3))
+	)
+	(port
+		(pt 264 272)
+		(output)
+		(text "desilasekolizija" (rect 0 0 83 14)(font "Arial" (font_size 8)))
+		(text "desilasekolizija" (rect 160 267 243 281)(font "Arial" (font_size 8)))
+		(line (pt 264 272)(pt 248 272))
+	)
+	(port
+		(pt 264 288)
+		(output)
+		(text "unisten" (rect 0 0 41 14)(font "Arial" (font_size 8)))
+		(text "unisten" (rect 202 283 243 297)(font "Arial" (font_size 8)))
+		(line (pt 264 288)(pt 248 288))
+	)
+	(port
+		(pt 264 304)
+		(output)
+		(text "zavrsio_se_pucanj" (rect 0 0 108 14)(font "Arial" (font_size 8)))
+		(text "zavrsio_se_pucanj" (rect 135 299 243 313)(font "Arial" (font_size 8)))
+		(line (pt 264 304)(pt 248 304))
+	)
+	(port
+		(pt 264 320)
+		(output)
+		(text "gameover" (rect 0 0 56 14)(font "Arial" (font_size 8)))
+		(text "gameover" (rect 187 315 243 329)(font "Arial" (font_size 8)))
+		(line (pt 264 320)(pt 248 320))
+	)
+	(drawing
+		(rectangle (rect 16 16 248 400))
+	)
+)
